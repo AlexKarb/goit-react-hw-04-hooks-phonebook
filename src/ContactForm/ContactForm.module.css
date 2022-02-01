@@ -1,0 +1,37 @@
+.phonebook {
+  display: flex;
+  flex-direction: column;
+}
+
+.phonebook__input {
+  font-size: 18px;
+  background-color: hsla(0, 61%, 83%, 0.425);
+  border: none;
+  border-radius: 6px;
+  padding: 3px 10px;
+  width: 170px;
+}
+
+.phonebook__label {
+  font-size: 16px;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.errorMessage {
+  font-size: 9px;
+  display: block;
+  color: red;
+  position: absolute;
+  width: 260px;
+  top: -35px;
+  height: 32px;
+  display: flex;
+  align-content: flex-end;
+  align-items: flex-end;
+  justify-content: center;
+}
