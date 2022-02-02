@@ -10,7 +10,7 @@
   display: inline-block;
   width: 80%;
   height: 3px;
-  background-image: linear-gradient(270deg, #ff00008c, #4b04ff8e);
+  background-color: #e99191;
   position: absolute;
   bottom: -10px;
   left: 0px;
